@@ -1,8 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
 * {
   padding: 0;
   margin: 0;
+}
+
+.icon {
+  filter: invert(77%) sepia(7%) saturate(472%) hue-rotate(179deg)
+    brightness(85%) contrast(83%);
+}
+
+.home {
+  filter: invert(43%) sepia(49%) saturate(492%) hue-rotate(193deg)
+    brightness(97%) contrast(89%);
+}
+
+.mark {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(187deg)
+    brightness(103%) contrast(101%);
 }
